@@ -10,6 +10,7 @@ PTT studyabroad forum: https://www.ptt.cc/bbs/studyabroad/index.html
 - Python 3.6, 3.7 or 3.8
 - Jupyter (Anaconda recommended)
 - BeautifulSoup
+- Xlwings
 
 ## Usage
 
@@ -26,11 +27,13 @@ PTT studyabroad forum: https://www.ptt.cc/bbs/studyabroad/index.html
    - Three nested loops were used in the program, the outer loop is for iterating through the webpages, the middle loop is for searching the titles in a webpage and the inner loop is for matching the mutliple keywords that user inputs with the title.
    
 3. title, title.a and title.a.string
-   - In order to extract the necessary part (title string) from the HTML code, we use title.a.string to get the string between <a> and </a>
+   - In order to extract the necessary part (title string) from the HTML code, we use ```title.a.string``` to get the string between ```<a>``` and ```</a>```
 
 4. How to filter the topics that match with keywords?
-5. How to store the data we scrape into excel
+   - 
 
+5. How to store the data we scrape into excel?
+ - We use xlwings packages to store the data scraped from the forum
 ## Motivation
 
 ## Reference
