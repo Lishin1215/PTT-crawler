@@ -5,7 +5,7 @@ PTT website version homepage: https://term.ptt.cc/
 
 PTT studyabroad forum: https://www.ptt.cc/bbs/studyabroad/index.html
 
-## Requirement
+## Requirements
 
 - Python 3.6, 3.7 or 3.8
 - Jupyter (Anaconda recommended)
