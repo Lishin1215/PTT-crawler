@@ -35,5 +35,3 @@ PTT studyabroad forum: https://www.ptt.cc/bbs/studyabroad/index.html
 4. **How to store the data we scrape into excel?**
    - We use xlwings packages to store the data scraped from the forum. Once the website title match the keywords, its url will be store into excel.
  
-## Acknowledgments
-[Web crawler tutorial](shorturl.at/G0369)
